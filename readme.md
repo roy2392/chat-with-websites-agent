@@ -2,7 +2,6 @@
 
 Welcome to the GitHub repository for the LangChain Chatbot with Streamlit GUI! This project is a comprehensive guide to building a chatbot capable of interacting with websites, extracting information, and communicating in a user-friendly manner. It leverages the power of LangChain 0.1.0 and integrates it with a Streamlit GUI for an enhanced user experience.
 
-🟡 This repository is meant as supporting material for the [Youtube video tutorial](https://youtu.be/bupx08ZgSFg).
 
 ## Features
 - **Website Interaction**: The chatbot uses the latest version of LangChain to interact with and extract information from various websites.
@@ -13,8 +12,6 @@ Welcome to the GitHub repository for the LangChain Chatbot with Streamlit GUI! T
 ## Brief explanation of how RAG works
 
 A RAG bot is short for Retrieval-Augmented Generation. This means that we are going to "augment" the knowledge of our LLM with new information that we are going to pass in our prompt. We first vectorize all the text that we want to use as "augmented knowledge" and then look through the vectorized text to find the most similar text to our prompt. We then pass this text to our LLM as a prefix.
-
-This is more clearly explained in the [Youtube video tutorial](https://youtu.be/bupx08ZgSFg), but here is a diagram that shows the process:
 
 ![RAG Diagram](docs/HTML-rag-diagram.jpg)
 
